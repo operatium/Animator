@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:text="HOME"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button" />
+
+    <Button
+        android:text="moveX"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button9"
+        android:onClick="moveX"/>
+
+    <Button
+        android:text="paowuxian"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button10"
+        android:onClick="paowuxian"/>
+
+    <Button
+        android:text="end"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button11"
+        android:onClick="end"/>
+
+    <Button
+        android:text="cancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button13"
+        android:onClick="cancel"/>
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="300dp"
+        android:id="@+id/imageView1"
+        app:srcCompat="@drawable/mv" />
+</LinearLayout>
